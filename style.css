@@ -1,0 +1,317 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+/* --------------------------------------------------THANH NAVBAR 1-------------------------------------------- */
+#navbar
+{
+    width: 100%;
+    height: 40px;
+    float: left;
+    background-color: #f1f2f4;
+}
+#navbar .p1
+{
+    display: inline-block;
+    margin: 0px 0px 0px 30px;
+    float: left;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+#navbar .p2
+{
+    display: inline-block;
+    margin: 0px 0px 0px 970px;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+}
+#navbar .p3
+{
+    display: inline-block;
+    margin: 0px 0px 0px 30px;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+}
+/* --------------------------------------------------THANH NAVBAR 2-------------------------------------------- */
+#navbar-2
+{
+    width: 100%;
+    height: 65px;
+    float: left;
+}
+#navbar-2 #logo
+{
+    height: 45px;
+    float: left;
+    margin: 10px 0px 0px 50px;
+}
+#navbar-2 .search
+{
+    height: 25px;
+    line-height: 65px;
+    float: left;
+    margin: 20px 0px 0px 1190px;
+}
+#navbar-2 .cart
+{
+    height: 25px;
+    line-height: 65px;
+    float: left;
+    margin: 18px 0px 0px 20px;
+}
+/* --------------------------------------------------BANNER-------------------------------------------- */
+#banner
+{
+    width: 100%;
+    float: left;
+}
+/* --------------------------------------------------THANH NAVBAR 3-------------------------------------------- */
+#navbar-3
+{
+    width: 100%;
+    height: 90px;
+    float: left;
+}
+#navbar-3 .p1
+{
+    display: inline-block;
+    margin: 0px 0px 0px 30px;
+    float: left;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif;
+    color: #23232c;
+    height: 90px;
+    line-height: 90px;
+}
+#navbar-3 .p2
+{
+    display: inline-block;
+    margin: 0px 0px 0px 100px;
+    float: left;
+    font-size: 18px;
+    color: #909097;
+    height: 90px;
+    line-height: 90px;
+}
+#navbar-3 .p3
+{
+    display: inline-block;
+    margin: 0px 0px 0px 100px;
+    float: left;
+    font-size: 12px;
+    color: #909097;
+    height: 90px;
+    line-height: 90px;
+}
+/* --------------------------------------------------MAIN CHÍNH-------------------------------------------- */
+#main
+{
+    width: 100%;
+    min-height: 1000px;
+    float: left;
+}
+/* --------------------------------------------------MAIN TRÁI-------------------------------------------- */
+#main #left
+{
+    width: 15%;
+    height: 1000px;
+    float: left;
+}
+#main #left ul
+{
+    margin: 10px 0px 0px 30px;
+    padding: 0px;
+}
+#main #left ul li
+{
+    list-style: none;
+    margin: 0px 0px 10px 0px;
+
+}
+#main #left ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    color: #909097;
+}
+#main #left ul li a:hover
+{
+    color: black;
+}
+/* --------------------------------------------------MAIN PHẢI-------------------------------------------- */
+#main #right
+{
+    width: 81%;
+    height: fit-content;
+    float: left;
+    padding: 2%;
+    border-top: 2px solid #f1f2f4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main #right .small-box
+{
+    width: 226px;
+    height: 380px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#main #right .small-box .img1
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#main #right .small-box .imgbox
+{
+    width: 207px;
+    height: 50px;
+    padding-left: 19px;
+}
+#main #right .small-box .imgbox .img2
+{
+    width: 40px;
+    margin: 2px;
+}
+#main #right .small-box .p1
+{
+    text-align: center;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1e1e23;
+}
+#main #right .small-box .p2
+{
+    display: inline-block;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 41px;
+    text-decoration: line-through;
+    color: #888888;
+}
+#main #right .small-box .p3
+{
+    display: inline-block;
+    float: left;
+    margin: 0px 0px 0px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+/* --------------------------------------------------FOOTER-------------------------------------------- */
+#footer
+{
+    width: 100%;
+    min-height: 700px;
+    float: left;
+    border-top: 2px solid #f1f2f4;
+}
+#footer #box1
+{
+    display: inline-block;
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    margin: 60px 0px 0px 180px;
+}
+#footer #box1 .img1
+{
+    width: 250px;
+}
+#footer #box2
+{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin: 60px 0px 0px 50px;
+    float: left;
+}
+#footer #box3
+{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin: 60px 0px 0px 50px;
+    float: left;
+}
+#footer .p0
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 25px 0px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+#footer .p1
+{
+    font-size: 14px;
+    color: #7c7c80;
+    margin: 25px 0px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Arial,sans-serif;
+}
+#footer #box4
+{
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin: 60px 0px 0px 50px;
+    float: left;
+}
+#footer #box4 a img
+{
+    width: 40px;
+}
+#footer #box5
+{
+    width: 94%;
+    height: 200px;
+    margin-top: 500px;
+    padding: 0px 3%;
+    clear: left;
+    border-top: 2px solid #f1f2f4;
+}
+#footer #box5 .p2
+{
+    
+}
+#footer #box5 .img2
+{
+    width: 20px;
+    float: left;
+}
+#footer #box5 .p3
+{
+    display: inline-block;
+    float: left;
+    margin: 0px 0px 0px 10px;
+}
+#footer #box5 .img3
+{
+    width: 450px;
+    position: absolute;
+    top: 2385px;
+    right: 37px;
+}
+#footer #box5 .img4
+{
+    width: 250px;
+    position: absolute;
+    top: 2451px;
+    right: 48px;
+}
